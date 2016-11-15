@@ -1,0 +1,20 @@
+{
+  "name": "MusicPlayerReact",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Ale Davila",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  }
+}
