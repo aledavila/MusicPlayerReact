@@ -12,6 +12,6 @@ class Search extends React.Component {
   }
 }
 
-ReactDOM.render(<Search/>,
+ReactDOM.render( <Search />,
   document.getElementById('content')
 );
