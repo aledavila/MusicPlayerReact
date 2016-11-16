@@ -2,6 +2,8 @@
   "name": "MusicPlayerReact",
   "version": "1.0.0",
   "description": "A minimal Electron application",
+  "author": "Ale Davila",
+  "repository": "https://github.com/aledavila/MusicPlayerReact",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -13,7 +15,6 @@
     "tutorial",
     "demo"
   ],
-  "author": "Ale Davila",
   "devDependencies": {
     "electron": "^1.4.1"
   }
