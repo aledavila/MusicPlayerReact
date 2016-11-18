@@ -22,7 +22,7 @@ export default StyleSheet.create({
         "marginLeft": 0,
         "fontFamily": "'Exo 2', sans-serif"
     },
-    "scotch_music": {
+    "react_player": {
         "position": "relative"
     },
     "search div": {
