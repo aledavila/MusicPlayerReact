@@ -10,7 +10,7 @@ class Search extends React.Component{
       },
       highlightedItem: {
         color:' white',
-        background: '#FAFAFA',
+        background: '#7EB0DB',
         padding: '2px 6px',
         cursor: 'default'
       }

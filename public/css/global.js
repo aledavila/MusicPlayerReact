@@ -31,7 +31,7 @@ export default StyleSheet.create({
     "search input": {
         "width": "100%",
         "border": "none",
-        "borderBottom": "2px solid rgb(243, 139, 114)",
+        "borderBottom": "2px solid rgb(47, 47, 47)",
         "outline": "none",
         "background": "rgba(255, 255, 255, 0.8)",
         "paddingTop": 5,
@@ -62,8 +62,8 @@ export default StyleSheet.create({
     },
     "player player__backward button": {
         "background": "transparent",
-        "border": "1px solid rgb(243, 139, 114)",
-        "color": "rgb(243, 139, 114)",
+        "border": "1px solid rgb(47, 47, 47)",
+        "color": "rgb(47, 47, 47)",
         "width": 75,
         "height": 75,
         "borderRadius": "100%",
@@ -73,8 +73,8 @@ export default StyleSheet.create({
     },
     "player player__forward button": {
         "background": "transparent",
-        "border": "1px solid rgb(243, 139, 114)",
-        "color": "rgb(243, 139, 114)",
+        "border": "1px solid rgb(47, 47, 47)",
+        "color": "rgb(47, 47, 47)",
         "width": 75,
         "height": 75,
         "borderRadius": "100%",
@@ -83,22 +83,20 @@ export default StyleSheet.create({
         "borderRight": "none"
     },
     "player player__main button:hover": {
-        "color": "rgba(243, 139, 114, 0.7)",
-        "border": "1px solid rgba(243, 139, 114, 0.7)"
+        "color": "rgba(191, 0, 255, 0.7)",
+        "border": "1px solid rgba(191, 0, 255, 0.7)"
     },
     "player player__backward button:hover": {
-        "color": "rgba(243, 139, 114, 0.7)",
-        "border": "1px solid rgba(243, 139, 114, 0.7)"
+        "color": "rgba(191, 0, 255, 0.7)",
+        "border": "1px solid rgba(191, 0, 255, 0.7)"
     },
     "player player__forward button:hover": {
-        "color": "rgba(243, 139, 114, 0.7)",
-        "border": "1px solid rgba(243, 139, 114, 0.7)"
+        "color": "rgba(191, 0, 255, 0.7)",
+        "border": "1px solid rgba(191, 0, 255, 0.7)"
     },
-    "player player__main": {
-        "border": "1px solid rgb(243, 139, 114)"
-    },
+    "player player__main": {},
     "player player__main button": {
-        "color": "rgb(243, 139, 114)",
+        "color": "rgb(47, 47, 47)",
         "background": "transparent",
         "width": 75,
         "height": 75,
@@ -125,7 +123,7 @@ export default StyleSheet.create({
         "boxShadow": "0 2px 5px rgba(0, 0, 0, 0.25) inset"
     },
     "progress progress[value]::-webkit-progress-value": {
-        "backgroundColor": "rgb(243, 139, 114)",
+        "backgroundColor": "rgb(191, 0, 255)",
         "borderRadius": 2,
         "backgroundSize": "35px 20px, 100% 100%, 100% 100%"
     },
