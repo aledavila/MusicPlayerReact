@@ -133,6 +133,11 @@ class AppContainer extends React.Component {
           forward={this.forward.bind(this)}
           backward={this.backward.bind(this)}
           random={this.randomTrack.bind(this)} />
+        <Progress
+          elapsed={this.state.elapsed}
+          total={this.state.total}
+          position={this.state.position} />
+        <Footer />
       </div>
     )
   }
