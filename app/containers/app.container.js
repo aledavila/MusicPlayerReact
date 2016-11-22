@@ -5,6 +5,8 @@ import Sound from 'react-sound';
 import Search from '../components/search.component';
 import Details from '../components/details.component';
 import Player from '../components/player.component';
+import Progress from '../components/progress.component';
+import Footer from '../components/footer.component';
 
 class AppContainer extends React.Component {
 
@@ -31,6 +33,10 @@ class AppContainer extends React.Component {
 
   prepareUrl(url) {
     return '${url}?client_id=${this.client_id}'
+  }
+
+  xlArtwork(url) {
+    return url.replace(/large/, 't500x500');
   }
 
   randomTrack() {
@@ -111,6 +117,14 @@ class AppContainer extends React.Component {
 
 
   render() {
+    const scotchStyle = {
+      width: '500px',
+      height: '500px',
+      backgroundImage: 'linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+      ), url(${this.xlArtwork(this.state.track.artwork_url)})'
+    }
     return (
       <div className="react_player">
         <Search
