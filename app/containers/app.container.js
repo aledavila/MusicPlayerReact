@@ -13,7 +13,7 @@ class AppContainer extends React.Component {
   constructor(props) {
     super(props);
 
-    this.client_id = 'YOUR_CLIENT_ID';
+    this.client_id = '2f98992c40b8edf17423d93bda2e04ab';
 
     this.state = {
       track: {stream_url: '', title: '', artwork_url: ''},
@@ -118,15 +118,12 @@ class AppContainer extends React.Component {
 
   render() {
     const scotchStyle = {
-      width: '500px',
-      height: '500px',
-      backgroundImage: 'linear-gradient(
-        rgba(0,0,0,0.7),
-        rgba(0,0,0,0.7)
-      ), url(${this.xlArtwork(this.state.track.artwork_url)})'
+      width: '100vw',
+      height: '100vh',
+      backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${this.xlArtwork(this.state.track.artwork_url)})'
     }
     return (
-      <div className="react_player">
+      <div className="react_player" style={scotchStyle}>
         <Search
           autoCompleteValue={this.state.autoCompleteValue}
           tracks={this.state.tracks}
