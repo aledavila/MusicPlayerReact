@@ -20,7 +20,7 @@ export default StyleSheet.create({
         "marginRight": 0,
         "marginBottom": 0,
         "marginLeft": 0,
-        "fontFamily": "'Exo 2', sans-serif"
+        "fontFamily": "'Lato', sans-serif"
     },
     "react_player": {
         "position": "relative"
@@ -37,7 +37,9 @@ export default StyleSheet.create({
         "paddingTop": 5,
         "paddingRight": 5,
         "paddingBottom": 5,
-        "paddingLeft": 5
+        "paddingLeft": 5,
+        "height": 30,
+        "fontSize": 15
     },
     "details h3": {
         "textAlign": "center",
